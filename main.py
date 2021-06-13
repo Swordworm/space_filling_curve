@@ -39,6 +39,6 @@ if __name__ == '__main__':
     # Go to initial point
     turtle.goto(-size / 2, size / 2)
     turtle.pendown()
-    print(each_element_size)
+
     hilbert(level, angle, each_element_size)
     turtle.done()
